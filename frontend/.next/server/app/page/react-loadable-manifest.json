@@ -1,0 +1,9 @@
+{
+  "[project]/node_modules/react-apexcharts/dist/react-apexcharts.min.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/node_modules/react-apexcharts/dist/react-apexcharts.min.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_f753a761._.js",
+      "static/chunks/node_modules_react-apexcharts_dist_react-apexcharts_min_dd0f298b.js"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "binary-clob-service",
+    "version": "1.0.0",
+    "description": "Binary options CLOB service",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+        "order-matching": "ts-node-dev --respawn --transpile-only src/matchingService.ts",
+        "position-monitor": "ts-node-dev --respawn --transpile-only src/positionMonitor.ts",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@coral-xyz/anchor": "^0.31.1",
+        "@pythnetwork/client": "^2.22.1",
+        "@pythnetwork/hermes-client": "^2.0.0",
+        "@pythnetwork/pyth-solana-receiver": "^0.10.1",
+        "@solana/web3.js": "^1.98.2",
+        "@supabase/supabase-js": "^2.0.0",
+        "@types/cors": "^2.8.18",
+        "@types/dotenv": "^6.1.1",
+        "bn.js": "^5.2.2",
+        "bs58": "^6.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^4.18.2",
+        "node-fetch": "^3.3.2",
+        "rpc-websockets": "7.5.1"
+    },
+    "devDependencies": {
+        "@types/bn.js": "^5.1.6",
+        "@types/express": "^4.17.17",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.0.0"
+    }
+}
